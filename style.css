@@ -1,0 +1,31 @@
+body{
+    background-color:azure;
+    color:gray;
+    width: fit-content;
+    margin: 0 auto;
+    text-align: left;
+}
+
+h1{
+    font-size: 36px;
+}
+
+h2{
+    font-size: 28px;
+}
+
+li{
+    font-size: 24px;
+    list-style-type: none;
+}
+
+a {
+    color:rgb(2, 2, 121);
+    text-decoration:none;
+}
+
+a:hover{
+    color:rgb(2, 2, 255);
+    text-decoration: overline;
+}
+
