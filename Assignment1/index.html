@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<head>
+ <title>Assignment 1</title>
+
+  <!-- css -->
+  <link rel="stylesheet" href="style.css">
+
+ <!-- three.js importmap -->
+   <script type="importmap">
+  {
+    "imports": {
+      "three": "https://ga.jspm.io/npm:three@0.182.0/build/three.module.js",
+      "OrbitControls": "https://ga.jspm.io/npm:three@0.182.0/examples/jsm/controls/OrbitControls.js",
+       "lil-gui": "https://ga.jspm.io/npm:lil-gui@0.21.0/dist/lil-gui.esm.js"
+    }
+  }
+  </script>
+  
+  <!-- three.js scene -->
+   <script src="script.js" type="module"></script>
+
+</head>
+
+<body>
+  <div class = "flexbox">
+    <!--ESSAY-->
+    <div class ="essay">
+      <h2>1. Flatness</h2>
+      <p><span class="clickable" id="part-one">From inside the cave...</span></p>
+
+      <p>Inside the cave, the people sit facing a blank stone wall where dark shapes flicker across its surface. 
+        They have never seen the object that creates these forms; all they know is the shifting silhouettes seen before them. 
+        At first, the shadow appears as a square, balanced and complete. It seems solid and dependable. 
+        But when the shadow suddenly <span class="clickable" id="first-change"> stretches upward and becomes taller before their eyes</span>, 
+        the people interpret this as growth. To them, something in their world is expanding, becoming more powerful or significant. 
+        They do not suspect manipulation or perspective; they believe they are witnessing transformation itself. Later, the shape shifts again and 
+        <span class="clickable" id="second-change">compresses into a thin vertical line that nearly disappears</span>. Panic spreads among them. 
+        The one solid presence now appears as weak and fragile, as if it is collapsing or fading from existence. 
+        The shadow is their only visible reference point; they treat its changes as evidence that reality itself is unstable. 
+        They can not imagine that something outside their view is being scaled or moved. The shadow is not a copy to them; it is the thing itself. 
+        Every alteration feels meaningful, and almost alive, as though the world beyond the wall is unpredictably changing. </p>
+
+      <p> Nick Sousani's concept of Flatness, to my understanding, refers to a restricted way of seeing that fixes complexity into one single way of 
+        interpretation. Flatness occurs when we accept surface appearances as complete truths, without looking at the larger systems or dimensions 
+        that produce them. It is a way of thinking that eliminates depth, visually and conceptually. The people inside the cave exist entirely 
+        within this flattened perspective. Their world is two-dimensional, literally, a shadow cast on stone. They have no access to the object 
+        creating the projection, and they can not imagine depth beyond the surface. Every meaning they come up with is based on outlines and 
+        movement across a flat wall. When the shadow stretches, they interpret growth; when it narrows, they interpret disappearance. 
+        They never question whether these changes might result from something that is beyond their line of sight. 
+        Their understanding is confined to what appears immediately before them. In this way, their worldview is flat; 
+        it is reduced, compressed, and limited to a single visible layer of reality. 
+        They mistake representation for truth and projection for presence, building an entire belief system from incomplete information. </p>
+
+      <h2>2. Seeing Double</h2>
+      <p><span class="clickable" id="part-two">From outside the cave...</span></p>
+
+      <p>Outside the cave, the illusion is easy to understand. 
+        A solid three-dimensional cube stands in open space between a bright directional light and the interior wall of the cave. 
+        The light shines steadily from one side, and wherever the cube blocks that light, a shadow is cast onto the wall inside. 
+        From this position, the relationship is clear: the shadow is not an independent object, but the result of light being interrupted by form.
+         When the cube is <span class="clickable" id="third-change">moved slightly forward and reduced in size</span>, 
+         it occupies less visual space in front of the light, and its shadow on the wall becomes smaller and shifts position. 
+         Nothing inside the cave is changing on its own; the movement of the shadow is directly caused by the cube’s new placement 
+         and scale in three-dimensional space. Later, when the cube is 
+         <span class="clickable" id="fourth-change">pulled farther back and enlarged in scale</span>, it blocks more of the light, 
+         and the shadow grows larger and stretches across the wall. From the outside, these changes are simple adjustments of 
+         geometry and distance. The cube remains the same object throughout; only its spatial relationship to the light shifts. 
+         What appears dramatic and mysterious inside the cave is, from this perspective, a predictable interaction between light, object, 
+         and surface.</p>
+
+      <p>Nick Sousanis’s concept of Seeing Double means learning to have two perspectives at once. 
+        It is the ability to recognize both the surface image and the deeper meaning that produces it. 
+        Seeing Double is not about rejecting appearances, but about understanding that appearances are part of a larger system. 
+        In the case of the cave, the people outside can see both the cube and the shadow simultaneously. 
+        They understand that when the cube moves forward and shrinks, the shadow inside becomes smaller because less space is being blocked 
+        from the light. When the cube moves backward and grows larger, the shadow expands because more light is being interrupted. 
+        The same physical action produces two different experiences. Inside the cave, the people see a shadow that appears to grow or 
+        disappear and believe reality itself is changing. Outside the cave, observers see a cube adjusting its position in space and 
+        recognize the shadow as a projection. Seeing Double connects these viewpoints. It reveals that the shadow and the cube are not two 
+        separate realities, but linked expressions of the same event. True understanding emerges when we recognize both dimensions at once, 
+        the visible effect on the wall and the invisible spatial cause behind it. By stepping outside the cave, perception gains depth, 
+        and reality expands beyond the flat surface of the shadow.</p>
+    </div>
+    
+    <!--SCENE-->
+    <div class ="scene">
+      <canvas class="webgl"></canvas>
+    </div>
+  </div>
+</body>
